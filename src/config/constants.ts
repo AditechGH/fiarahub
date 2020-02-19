@@ -30,16 +30,16 @@ const defaultConfig = {
     REDIS_HOST: process.env.REDIS_HOST || '127.0.0.1',
     REDIS_AUTH: process.env.REDIS_AUTH || null,
     twilio: {
-        number: process.env.TWILLIO_NUMBER || '+12057429662',
-        accountSid: process.env.TWILLIO_accountSid || 'AC8a5fea6fb2f049b05bcbf3eaf330c38d',
-        authToken: process.env.TWILLIO_authToken || 'b7bd7d0c620a0342b8a16bd0dfefde88',
-        authyKey: process.env.TWILLIO_authyKey|| 'eXzYv8A8y5pn6q8W2taH67zBqhqsDtug',
+        number: process.env.TWILLIO_NUMBER || '',
+        accountSid: process.env.TWILLIO_accountSid || '',
+        authToken: process.env.TWILLIO_authToken || '',
+        authyKey: process.env.TWILLIO_authyKey|| '',
     },
     no_reply: 'no_reply@halalclothingonline.com',
     amazon: {
-        AccessKeyID: process.env.AMAZON_AccessKeyID || 'AKIAJRZ5NEHVHRBCCRQA',
-        SecretAccessKey: process.env.AMAZON_SecretAccessKey || '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',
-        region: process.env.AMAZON_region || 'us-east-1'
+        AccessKeyID: process.env.AMAZON_AccessKeyID || '',
+        SecretAccessKey: process.env.AMAZON_SecretAccessKey || '',
+        region: process.env.AMAZON_region || ''
     }
 };
 
